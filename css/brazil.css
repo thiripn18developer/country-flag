@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #f4f4f4;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    background:green;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.5);
+    position: relative;
+}
+.para--con{
+    transform: rotate(30deg);
+    position: absolute;
+    top: 19%;
+    left: 28%;
+}
+.parallo{
+    width: 220px;
+    height: 190px;
+    background-color: yellow;
+    transform: skew(-30deg);
+}
+.wh--circle{
+    width: 140px;
+    height: 140px;
+    background:#152a69 ;
+    clip-path: circle(50% at center);
+    position: absolute;
+    top: 26%;
+    left: 35%;
+    transform: rotate(20deg);
+}
+.blue--1{
+    width: 140px;
+    height: 140px;
+    background-color:#fff;
+    clip-path: ellipse(15px 80px at 90%);
+    transform: rotate(109deg);
+    position: absolute;
+    top:19px ;
+    left: 195px;
+}
+.blue--2{
+    width: 140px;
+    height: 140px;
+    background:#152a69 ;
+    clip-path: ellipse(13px 80px at 90%);
+    transform: rotate(109deg);
+    position: absolute;
+    top:30px ;
+    left: 190.5px;
+}
+.word{
+    color: green;
+    font-size: 8px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+}
+.word1{
+    transform: rotate(13deg);
+    top: 117px;
+    left: 182px;
+}
+.word2{
+    transform: rotate(18deg);
+    top: 130px;
+    left: 227px;
+}
+.word3{
+    transform: rotate(28deg);
+    top: 148px;
+    left: 276px;
+}
+.star{
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+}
+.star.star1{
+    top: 41%;
+    left: 52%;
+}
+.star.star2{
+    top: 61%;
+    left: 52%;
+}
+.star.star3{
+    top: 61%;
+    left: 42%;
+}
+.star.star4{
+    top: 58%;
+    left: 52%;
+}
+.star.star5{
+    top: 46%;
+    left: 38%;
+}
+.star.star6{
+    top: 49%;
+    left: 42%;
+}
+.star.star7{
+    top: 53%;
+    left: 45%;
+}
+.star.star8{
+    top: 57%;
+    left: 60%;
+}
+.star.star9{
+    top: 50%;
+    left: 40%;
+}
+.star.star10{
+    top: 64%;
+    left: 46%;
+}
+.star.star11{
+    top: 68%;
+    left: 54%;
+}
+.star.star12{
+    top: 65%;
+    left: 50%;
+}
+.star.star13{
+    top: 60%;
+    left: 50%;
+}
+.star.star14{
+    top: 56%;
+    left: 52%;
+}
+h1{
+    position: absolute;
+    top: 80%;
+}

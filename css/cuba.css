@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #f4f4f4;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    background:#fff;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.5);
+    position: relative;
+    overflow: hidden;
+}
+.blue{
+    width: 500px;
+    height: 60px;
+    background-color: #152a69;
+    position: absolute;
+}
+.blue.line2{
+   top: 120px;
+}
+.blue.line3{
+    top: 240px;
+}
+.container .triangle{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    clip-path: polygon(51% 29%, 0% 100%, 100% 100%);
+    transform: rotate(90deg);
+}
+.star{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    top: 37%;
+    left: 6%;
+    
+}
+h1{
+    position: absolute;
+    top: 80%;
+}

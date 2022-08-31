@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #f4f4f4;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    background:#fff;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.5);
+    position: relative;
+}
+.big{
+    background-color: red;
+    position: absolute;
+}
+.big--y{
+    width: 80px;
+    height: 300px;
+    left: 203px;
+}
+.big--x{
+    width: 500px;
+    height: 80px;
+    top: 107px;
+}
+.small{
+    background-color: yellow;
+    position: absolute;
+}
+.small--y{
+    width: 30px;
+    height: 190px;
+    top: 55px;
+    left: 229px;
+}
+.small--x{
+    width: 255px;
+    height: 29px;
+    top: 132px;
+    left: 119px;
+}
+.traingle{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    clip-path:polygon(51% 42%, 0% 100%, 100% 100%);
+    position: absolute;
+}
+.container .traingle1{
+    transform: rotate(90deg);
+    top: 122px;
+    left: 108px;
+}
+.container .traingle2{
+    transform: rotate(180deg);
+    top: 45px;
+    left: 219px;
+}
+.container .traingle3{
+    transform: rotate(270deg);
+    top: 122px;
+    left:336px;
+}
+.container .traingle4{
+    top: 208px;
+    left:219px;
+}
+h1{
+    position: absolute;
+    top: 80%;
+}
